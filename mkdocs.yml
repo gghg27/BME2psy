@@ -1,0 +1,98 @@
+site_name: BME->心理学预推免备考资料库
+site_description: 北师大心理学部与中科院心理所备考资料
+site_author: gghg27
+site_url: https://gghg27.github.io/BME2psy/
+
+repo_name: gghg27/BME2psy
+repo_url: https://github.com/gghg27/BME2psy
+edit_uri: edit/main/docs/
+
+docs_dir: docs
+site_dir: site
+
+theme:
+  name: material
+  language: zh
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - navigation.indexes
+    - navigation.footer
+    - content.code.copy
+    - content.action.edit
+    - search.highlight
+    - search.suggest
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: teal
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: 切换至深色模式
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: teal
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: 切换至浅色模式
+
+plugins:
+  - search:
+      lang:
+        - zh
+        - en
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - tables
+  - footnotes
+  - def_list
+  - toc:
+      permalink: true
+      toc_depth: 3
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+
+nav:
+  - 首页: index.md
+  - 考情与规划:
+      - 考情调研: 00_exam_research.md
+  - 核心知识:
+      - 心理学核心: 01_psychology_core.md
+      - 实验设计: 02_experimental_design.md
+      - 心理统计: 03_statistics_for_psychology.md
+      - 认知神经科学桥接: 06_cognitive_neuroscience_bridge.md
+      - 经典实验范式: 09_classic_paradigms.md
+  - 文献阅读:
+      - 中文文献评述: 04_chinese_literature_critique.md
+      - 英文论文阅读: 05_english_paper_reading.md
+      - 英文阅读答案: 05_english_paper_reading_answers.md
+  - 导师方向:
+      - 胡理团队与疼痛方向: 07_target_huli.md
+      - 刘冰团队与多模态方向: 08_target_liubing.md
+  - 面试与练习:
+      - 面试问题: 10_interview_questions.md
+      - 研究设计练习: 11_research_design_drills.md
+      - 研究设计答案: 11_research_design_drills_answers.md
+      - 综合模拟笔试: 12_mock_exam.md
+      - 模拟笔试答案: 12_mock_exam_answers.md
+      - 心理统计答案: 03_statistics_for_psychology_answers.md
+  - 参考资料:
+      - 考情来源: references_exam_sources.md
+      - 论文引用: references_papers.md
+
+exclude_docs: |
+  **/~*
+  **/*.tmp
