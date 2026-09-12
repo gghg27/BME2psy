@@ -1,11 +1,12 @@
 # 考情来源登记
 
-> 核验日期：2026-09-04。A = 招生单位官网；A-archive = 招生单位官方网页归档。北师大原站在当前网络超时，均按官方页面归档核验；中科院心理所链接均已返回 HTTP 200。事实摘要见 [00_exam_research.md](00_exam_research.md)。
+> 核验日期：2026-09-12。A = 招生单位官网；A-archive = 招生单位官方网页归档。事实摘要见 [00_exam_research.md](00_exam_research.md)。
 
 ## 北京师范大学心理学部
 
 | 招生年度 | 项目 | 页面登记名 | 发布时间 | 证据 | URL |
 |---:|---|---|---|---|---|
+| 2027 | 推免学硕/直博 | 心理学部2027年推荐免试综合考核实施细则 | 2026-09-08 | A | https://psych.bnu.edu.cn/xwzx/tzgg/064ffd543231447c86a7ceff7b8797bd.htm |
 | 2024 | 推免学硕/直博 | 心理学部2024年推荐免试研究生复试通知 | 2023-09-18 | A-archive | https://psych.bnu.edu.cn/xwzx/tzgg/23790c525a004e2894cfbbd1ae955081.htm |
 | 2023 | 推免学硕/直博 | 心理学部2023年推荐免试硕士/博士研究生报名及复试通知 | 2022-09-17 | A-archive | https://psych.bnu.edu.cn/xwzx/tzgg/74c82342fca04299b4a4c8c5d6b5afde.htm |
 | 2023 | 学术硕士复试 | 心理学部学术学位硕士研究生招生复试方案 | 2023-03-20 | A-archive | https://psych.bnu.edu.cn/xwzx/tzgg/6ecaca886eb7421c852d1a030010a697.htm |

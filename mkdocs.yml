@@ -1,5 +1,5 @@
 site_name: BME->心理学预推免备考资料库
-site_description: 北师大心理学部与中科院心理所备考资料
+site_description: 北师大心理学部国重计算机方向与中科院心理所备考资料
 site_author: gghg27
 site_url: https://gghg27.github.io/BME2psy/
 
@@ -75,6 +75,10 @@ nav:
       - 心理统计: 03_statistics_for_psychology.md
       - 认知神经科学桥接: 06_cognitive_neuroscience_bridge.md
       - 经典实验范式: 09_classic_paradigms.md
+  - 国重计算机:
+      - 程序设计教程: 13_programming_tutorial.md
+      - 程序设计练习: 13_programming_drills.md
+      - 程序设计答案: 13_programming_answers.md
   - 文献阅读:
       - 中文文献评述: 04_chinese_literature_critique.md
       - 英文论文阅读: 05_english_paper_reading.md
